@@ -20,10 +20,10 @@ public class S1T1N1Ex2 {
 		System.out.println(coche1.acelerar() + " el vehiculo es " + coche1.getMarca() + " " + coche1.getModelo() + " con una potencia de  " + coche1.getPotencia() + " caballos.");
 		System.out.println(coche2.acelerar() + " el vehiculo es " + coche2.getMarca() + " " + coche2.getModelo() + " con una potencia de  " + coche2.getPotencia() + " caballos.");
 		
-		System.out.println(coche1.frenar() + " el vehiculo es " + coche1.getMarca() + " " + coche1.getModelo() + " con una potencia de  " + coche1.getPotencia() + " caballos.");
+		//System.out.println(coche1.frenar() + " el vehiculo es " + coche1.getMarca() + " " + coche1.getModelo() + " con una potencia de  " + coche1.getPotencia() + " caballos.");
 		System.out.println(Coche.frenar() + " el vehiculo es " + coche1.getMarca() + " " + coche1.getModelo() + " con una potencia de  " + coche1.getPotencia() + " caballos.");
 		
-		System.out.println(coche2.frenar() + " el vehiculo es " + coche2.getMarca() + " " + coche2.getModelo() + " con una potencia de  " + coche2.getPotencia() + " caballos.");
+		//System.out.println(coche2.frenar() + " el vehiculo es " + coche2.getMarca() + " " + coche2.getModelo() + " con una potencia de  " + coche2.getPotencia() + " caballos.");
 		System.out.println(Coche.frenar() + " el vehiculo es " + coche2.getMarca() + " " + coche2.getModelo() + " con una potencia de  " + coche2.getPotencia() + " caballos.");
 		
 

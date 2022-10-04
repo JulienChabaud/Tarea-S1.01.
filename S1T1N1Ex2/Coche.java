@@ -14,16 +14,16 @@ public class Coche {
 	//constructor
 	public Coche (String marca, String modelo, int potencia) {
 		//this.marca = marca;
-		this.modelo = modelo;
+		Coche.modelo = modelo;
 		this.potencia = potencia;
 	}
 	
 	//getter
 	public String getMarca() {
-		return this.marca;
+		return Coche.marca;
 	}
 	public String getModelo() {
-		return this.modelo;
+		return Coche.modelo;
 	}
 	public int getPotencia() {
 		return this.potencia;
@@ -34,7 +34,7 @@ public class Coche {
 		this.marca = marca;
 	}*/
 	public void setModelo(String modelo) {
-		this.modelo = modelo;
+		Coche.modelo = modelo;
 	}
 	/*public void setPotencia(int potencia) {
 		this.potencia = potencia;
